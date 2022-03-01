@@ -1,0 +1,84 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 110px;
+    padding-left: 125px;
+    padding-top: 20px;
+}
+
+.main-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 210px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.sec-heading {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #E5E7EB; 
+}
+
+.secondary-heading {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 210px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+.secondary-heading-1 {
+    width: 400px;
+}
+
+.secondary-heading-1 div {
+    margin-bottom: 20px;;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-sec-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.secondary-heading-1 button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 30px;
+}
+
+.secondary-heading-2 img {
+    width:400px;
+    height:250px;
+    object-fit: cover;
+}
