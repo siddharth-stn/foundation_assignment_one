@@ -1,6 +1,7 @@
 /* font import */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
 
+/* Universal Rule */
 * {
     margin: 0;
     padding: 0;
@@ -142,11 +143,66 @@ li a {
     border-radius: 25px;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    padding: 100px;
+}
 
+blockquote {
+    margin-left: 150px;
+    margin-right: 250px;
+}
 
+figcaption {
+    color: black;
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+    margin-right: 200px;
+    margin-top: 30px;
+}
 
+.conclusion {
+    background-color: #F9FAF8;
+    padding: 100px 120px;
+}
 
+.call-to-action {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 50px;
+    color: #F9FAF8
+}
 
+.call-text {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
 
+.call-to-action button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 16px;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
 
-
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px; 
+    font-weight: 300;
+}
